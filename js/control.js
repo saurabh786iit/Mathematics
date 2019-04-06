@@ -114,7 +114,7 @@ function loadContent(query) {
 
   var currentChap = contentData[query];
 
-  document.title = currentChap["content-title"] + " - D3 Graph Theory";
+  document.title = currentChap["content-title"] + " - Graph Theory | Aryabhatiya";
 
   //initially: status -> not hidden; app, footer -> hidden
   $("#status-container").toggleClass("hidden");
